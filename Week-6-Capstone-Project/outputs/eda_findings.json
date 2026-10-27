@@ -1,0 +1,15 @@
+{
+  "overall_survival_rate": 0.3838383838383838,
+  "survival_rate_by_sex": {
+    "female": 0.7420382165605095,
+    "male": 0.18890814558058924
+  },
+  "survival_rate_by_class": {
+    "1": 0.6296296296296297,
+    "2": 0.47282608695652173,
+    "3": 0.24236252545824846
+  },
+  "rows": 891,
+  "columns": 15,
+  "fare_skew_note": "Fare has a long upper tail; high IQR flags are not automatically errors."
+}

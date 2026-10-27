@@ -1,0 +1,32 @@
+{
+  "source": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv (Seaborn example-data mirror; original source is Kaggle)",
+  "python": "3.13.5",
+  "pandas": "2.3.2",
+  "scikit_learn": "1.7.1",
+  "raw_shape": [
+    891,
+    15
+  ],
+  "clean_shape": [
+    891,
+    15
+  ],
+  "model": {
+    "accuracy": 0.7953216374269005,
+    "precision_survival": 0.8235294117647058,
+    "recall_survival": 0.7088607594936709,
+    "f1_survival": 0.7619047619047619,
+    "roc_auc": 0.8381260319207484,
+    "train_rows": 720,
+    "test_rows": 171,
+    "test_size": 0.1919191919191919,
+    "random_state": 42,
+    "split_strategy": "StratifiedGroupKFold: identical model feature/label rows stay in one split.",
+    "selection_rule": "Highest mean five-fold stratified group CV F1 on training partition; test set not used for selection.",
+    "selected_model": "Random Forest",
+    "positive_class": "survived=1",
+    "versions": {
+      "pandas": "2.3.2"
+    }
+  }
+}

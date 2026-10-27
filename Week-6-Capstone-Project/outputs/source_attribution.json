@@ -1,0 +1,7 @@
+{
+  "mirror_url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv",
+  "underlying_source": "Kaggle Titanic: Machine Learning from Disaster",
+  "kaggle_data_page": "https://www.kaggle.com/competitions/titanic/data",
+  "use_conditions": "Kaggle competition rules apply; review before redistribution.",
+  "local_cache": "data\\raw\\titanic.csv"
+}

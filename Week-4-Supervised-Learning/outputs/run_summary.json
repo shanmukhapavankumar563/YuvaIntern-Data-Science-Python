@@ -1,0 +1,17 @@
+{
+  "selected_model": "Logistic Regression",
+  "selection_metric": "mean 5-fold training CV malignant F1",
+  "test_size": 0.2,
+  "random_state": 42,
+  "positive_class": "malignant",
+  "test_metrics": {
+    "accuracy": 0.9649122807017544,
+    "precision_malignant": 0.975,
+    "recall_malignant": 0.9285714285714286,
+    "f1_malignant": 0.9512195121951219,
+    "roc_auc_malignant": 0.996031746031746
+  },
+  "scikit_learn_version": "1.7.1",
+  "train_rows": 455,
+  "test_rows": 114
+}

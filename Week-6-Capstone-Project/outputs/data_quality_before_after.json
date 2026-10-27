@@ -1,0 +1,100 @@
+{
+  "before": {
+    "rows": 891,
+    "columns": 15,
+    "duplicate_rows": 107,
+    "missing_cells": 869,
+    "missing_by_column": {
+      "survived": 0,
+      "pclass": 0,
+      "sex": 0,
+      "age": 177,
+      "sibsp": 0,
+      "parch": 0,
+      "fare": 0,
+      "embarked": 2,
+      "class": 0,
+      "who": 0,
+      "adult_male": 0,
+      "deck": 688,
+      "embark_town": 2,
+      "alive": 0,
+      "alone": 0
+    },
+    "dtypes": {
+      "survived": "int64",
+      "pclass": "int64",
+      "sex": "object",
+      "age": "float64",
+      "sibsp": "int64",
+      "parch": "int64",
+      "fare": "float64",
+      "embarked": "object",
+      "class": "object",
+      "who": "object",
+      "adult_male": "bool",
+      "deck": "object",
+      "embark_town": "object",
+      "alive": "object",
+      "alone": "bool"
+    },
+    "target_counts": {
+      "0": 549,
+      "1": 342
+    }
+  },
+  "after": {
+    "rows": 891,
+    "columns": 15,
+    "duplicate_rows": 107,
+    "missing_cells": 869,
+    "missing_by_column": {
+      "survived": 0,
+      "pclass": 0,
+      "sex": 0,
+      "age": 177,
+      "sibsp": 0,
+      "parch": 0,
+      "fare": 0,
+      "embarked": 2,
+      "class": 0,
+      "who": 0,
+      "adult_male": 0,
+      "deck": 688,
+      "embark_town": 2,
+      "alive": 0,
+      "alone": 0
+    },
+    "dtypes": {
+      "survived": "int64",
+      "pclass": "int64",
+      "sex": "object",
+      "age": "float64",
+      "sibsp": "int64",
+      "parch": "int64",
+      "fare": "float64",
+      "embarked": "object",
+      "class": "object",
+      "who": "object",
+      "adult_male": "bool",
+      "deck": "object",
+      "embark_town": "object",
+      "alive": "object",
+      "alone": "bool"
+    },
+    "target_counts": {
+      "0": 549,
+      "1": 342
+    }
+  },
+  "actions": {
+    "whitespace_cells_normalized": 0,
+    "invalid_age_values": 0,
+    "invalid_fare_values": 0,
+    "invalid_target_values": 0,
+    "exact_duplicate_rows_removed": 0,
+    "exact_duplicate_rows_retained_due_to_missing_passenger_ids": 107
+  },
+  "rows_without_target_removed": 0,
+  "outlier_policy": "Age and fare IQR flags are reported for review; valid extreme values are retained."
+}

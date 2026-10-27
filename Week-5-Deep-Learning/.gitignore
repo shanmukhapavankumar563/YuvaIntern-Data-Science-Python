@@ -1,0 +1,5 @@
+# Fashion-MNIST is downloaded and cached locally; avoid committing raw/cache files.
+data/
+__pycache__/
+.venv/
+*.py[cod]

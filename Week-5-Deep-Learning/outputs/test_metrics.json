@@ -1,0 +1,20 @@
+{
+  "test_loss": 0.26329351744651797,
+  "accuracy": 0.9011,
+  "macro_f1": 0.8999516370194917,
+  "best_epoch": 5,
+  "epochs_completed": 5,
+  "early_stopped": false,
+  "per_class_recall": {
+    "T-shirt/top": 0.885,
+    "Trouser": 0.977,
+    "Pullover": 0.845,
+    "Dress": 0.908,
+    "Coat": 0.872,
+    "Sandal": 0.983,
+    "Shirt": 0.649,
+    "Sneaker": 0.945,
+    "Bag": 0.982,
+    "Ankle boot": 0.965
+  }
+}
